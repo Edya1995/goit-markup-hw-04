@@ -145,6 +145,7 @@ img {
   background-color: var(--row-list-headline-color);
   padding-top: 188px;
   padding-bottom: 188px;
+  background-image: url(../images/hero/people-office.jpg);
 }
 .hero-title {
   font-size: 56px;
@@ -274,4 +275,22 @@ img {
   color: var(--row-list-headline-color);
   margin: 0 auto;
   margin-bottom: 72px;
+}
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  row-gap: 48px;
+}
+.portfolio-list-headline {
+  background-color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--row-list-headline-color);
+  margin-bottom: 8px;
+}
+.portfolio-wrapper {
+  padding: 32px 0;
 }
