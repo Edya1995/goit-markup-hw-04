@@ -190,6 +190,9 @@ img {
 .work-list-item {
   width: 264px;
 }
+.work-list-icon {
+  margin: 24px 100px;
+}
 .work-list-headline {
   font-weight: 500;
   font-size: 20px;
