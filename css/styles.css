@@ -190,6 +190,11 @@ img {
 .work-list-item {
   width: 264px;
 }
+.work-list-icon-container {
+  border-radius: 4px;
+  border: 1px solid var(--LIGHT-SLATE, #8e8f99);
+  background: var(--CLOUD, #f4f4fd);
+}
 .work-list-icon {
   margin: 24px 100px;
 }
@@ -199,6 +204,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--row-list-headline-color);
+  margin-top: 8px;
   margin-bottom: 8px;
 }
 .work-list-caption {
