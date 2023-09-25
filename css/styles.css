@@ -140,6 +140,9 @@ img {
   letter-spacing: 0.02em;
   color: var(--button-background-color);
 }
+.footer-list-icon {
+  fill: #f4f4fd;
+}
 /* Hero Section */
 .hero-section {
   padding-top: 188px;
@@ -279,12 +282,29 @@ img {
 .team-list-caption {
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+.team-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.team-list-icon:hover,
+.team-list-icon:focus {
+  background-color: #404bbf;
 }
 .team-list-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
   fill: #f4f4fd;
-  margin-right: 24px;
-  margin-top: 8px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
 }
+
 /* Portfolio Section */
 .portfolio-section {
   padding-top: 120px;
