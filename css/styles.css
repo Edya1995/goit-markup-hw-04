@@ -192,6 +192,9 @@ img {
 }
 /* Work Section */
 .work-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding-top: 120px;
   padding-bottom: 120px;
 }
