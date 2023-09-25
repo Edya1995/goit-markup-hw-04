@@ -77,6 +77,8 @@ img {
 
 /* Header Section */
 .header-section {
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 1px 6px rgba(46, 47, 66, 0.08);
   border-bottom: 1px solid var(--cornflower, #e7e9fc);
 }
 .header-container {
@@ -84,6 +86,8 @@ img {
   align-items: center;
 }
 .header-nav {
+  position: relative;
+  color: #404bbf;
   display: flex;
   align-items: center;
   margin-right: auto;
