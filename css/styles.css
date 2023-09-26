@@ -353,6 +353,7 @@ img {
 .team-sotial-icon {
   width: 40px;
   height: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-sotial-link {
   width: 100%;
@@ -373,7 +374,6 @@ img {
   justify-content: center;
   gap: 24px;
   fill: #f4f4fd;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Portfolio Section */
